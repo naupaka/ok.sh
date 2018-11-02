@@ -78,7 +78,7 @@ awk_bin=$(command -v awk)
 
 # Generate a carriage return so we can match on it.
 # Using a variable because these are tough to specify in a portable way.
-cr=$(printf '\r')
+cr=$(printf '\r\n')
 
 # ## Main
 # Generic functions not necessarily specific to working with GitHub.
